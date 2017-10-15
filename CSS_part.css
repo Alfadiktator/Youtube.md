@@ -1,0 +1,38 @@
+body{
+    width : 100%;
+    height :100%;
+    position:relative;
+    background-color:rgb(47, 55, 83);
+    
+}
+
+input[type=search]{
+    width:45%;
+    height:30px;
+    font: bold;
+    font-size:15px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-left:0;
+    position: absolute;
+    margin-left:5%;
+}
+
+ #searchDiv{
+     width:50%;
+     top:0;
+     left:37%;
+     position: absolute;
+ }
+
+ #btn_s{
+    width:5%;
+    height:30px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color:white;
+    background-image:url(https://cdn1.savepice.ru/uploads/2017/10/15/dee380b22704eac4cfc6e111ad6a53a1-full.png);
+    background-size:auto 30px;
+    background-repeat: no-repeat;
+    position: absolute;
+ }
